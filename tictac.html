@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictac.css">
+    <script src="tictac.js" defer></script>
+
+</head>
+
+<body>
+
+
+    <main>
+
+        <div class="title">Tic&nbsp;<font id="tac">Tac</font>&nbsp;Toe</div>
+        <br>
+        <br>
+        <div class="container">
+            <!-- <hr class="divider"> -->
+            <div class="grid_main" id="grid_main">
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="copy">Copyrights &copy; belong to khawajabilal902@gmail.com</div>
+        <div id="winningMessage" class="winning-message ">
+            <div class="winning-msg" data-winning-message></div>
+            <button class="btn" type="button" onclick="start()">Restart</button>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
